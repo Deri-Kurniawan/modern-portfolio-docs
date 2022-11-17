@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Portfolio",
-  tagline: "Portfolio are cool",
+  tagline: "Modern, Cool and Clean",
   url: "https://docs-portfolio.deri-kurniawan.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Deri-Kurniawan/portfolio-docs/tree/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Deri-Kurniawan/portfolio-docs/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -64,14 +64,27 @@ const config = {
         },
         items: [
           {
+            type: "docsVersionDropdown",
+            position: "right",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
+          {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Documentation",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://portfolio.deri-kurniawan.vercel.app",
+            label: "Live Demo",
+            position: "right",
+          },
+          {
+            href: "https://github.com/deri-kurniawan/portfolio",
             label: "GitHub",
             position: "right",
           },
