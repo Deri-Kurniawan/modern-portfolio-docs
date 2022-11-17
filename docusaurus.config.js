@@ -94,16 +94,36 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Documentation",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro",
+              },
+              {
+                label: "Getting Started",
+                to: "/docs/getting-started",
+              },
+              {
+                label: "Installation",
+                to: "/docs/getting-started/installation",
+              },
+              {
+                label: "Configuration",
+                to: "/docs/getting-started/configuration",
+              },
+              {
+                label: "Environment Variables",
+                to: "/docs/getting-started/configuration/environment-variables",
+              },
+              {
+                label: "Modifying Data",
+                to: "/docs/getting-started/configuration/modifying-data",
               },
             ],
           },
           {
-            title: "Socials",
+            title: "Social Media",
             items: [
               {
                 label: "Stack Overflow",
