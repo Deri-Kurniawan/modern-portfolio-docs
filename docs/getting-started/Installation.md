@@ -38,7 +38,7 @@ or using yarn.
 yarn start
 ```
 
-your server will be running on (http://localhost:3000)[http://localhost:3000]
+your server will be running on [http://localhost:3000](http://localhost:3000)
 
 ## Build & Deployment
 
