@@ -16,7 +16,7 @@ Modifying the structure of `db/data.json` file will cause the app to crash.
 You can modify data values on `db/data.json` file, and you can add data as long as it's in the array.
 :::
 
-```json
+```json title="data.json schema"
 {
   "hero": {
     "fullName": string,
@@ -40,7 +40,8 @@ You can modify data values on `db/data.json` file, and you can add data as long 
     {
       "name": string,
       "icon": string,
-      "description": string
+      "description": string,
+      "inverted": boolean?
     },
   ],
   "projects": [
@@ -74,7 +75,7 @@ You can modify data values on `db/data.json` file, and you can add data as long 
       "review": string
     },
   ],
-  "footer": [{
+  "footer": [
     {
       "label": string,
       "urls": [
@@ -85,7 +86,7 @@ You can modify data values on `db/data.json` file, and you can add data as long 
         },
       ]
     }
-  }],
+  ],
   "socialMedia": [
     {
       "label": string,
