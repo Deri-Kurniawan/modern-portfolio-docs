@@ -52,7 +52,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -197,6 +196,60 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/portfolio.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json", // your PWA manifest
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(37, 194, 160)",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            sizes: "180x180",
+            href: "/img/apple-touch-icon.png",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            sizes: "32x32",
+            href: "/img/favicon-32x32.png",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            sizes: "16x16",
+            href: "/img/favicon-16x16.png",
+          },
+          {
+            tagName: "link",
+            rel: "mask-icon",
+            href: "/img/safari-pinned-tab.svg",
+            color: "rgb(37, 194, 160)",
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;
