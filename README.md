@@ -1,41 +1,18 @@
-# Website
+# Deri Kurniawan Portfolio Modern Theme
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![Mockup Portfolio](https://github.com/Deri-Kurniawan/modern-portfolio/blob/master/public/Mockup.png)
 
-### Installation
+[![Deri-Kurniawan - portfolio](https://img.shields.io/static/v1?label=Deri-Kurniawan&message=portfolio&color=blue&logo=github)](https://github.com/Deri-Kurniawan/modern-portfolio "Go to GitHub repo")
+[![stars - portfolio](https://img.shields.io/github/stars/Deri-Kurniawan/modern-portfolio?style=social)](https://github.com/Deri-Kurniawan/modern-portfolio)
+[![forks - portfolio](https://img.shields.io/github/forks/Deri-Kurniawan/modern-portfolio?style=social)](https://github.com/Deri-Kurniawan/modern-portfolio)
+[![fork with dotenv-vault](https://badge.dotenv.org/fork.svg?r=1)](https://vault.dotenv.org/project/vlt_c8c326cc8c7bc830d137a1a8f6612b10ff033c992e68bc4a8524acd8cd15a6bd/example)
 
-```
-$ yarn
-```
+Live Demo [Modern Portfolio App](https://modern-portfolio.deri.my.id) Deployed at Vercel
 
-### Local Development
+# Documentation
 
-```
-$ yarn start
-```
+Visit [Modern Portfolio Documentation](https://docs.modern-portfolio.deri.my.id) If you want to make your portfolio with this template
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+# Credits
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Special thanks to the givers of the sources listed on [CREDITS](https://github.com/Deri-Kurniawan/modern-portfolio/blob/master/CREDITS.md)

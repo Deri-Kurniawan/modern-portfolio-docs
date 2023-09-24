@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Portfolio",
+  title: "Modern Portfolio",
   tagline: "Modern, Cool and Clean",
-  url: "https://docs-portfolio.deri-kurniawan.vercel.app",
+  url: "https://docs.modern-portfolio.deri.my.id",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "deri-kurniawan", // Usually your GitHub org/user name.
-  projectName: "portfolio-docs", // Usually your repo name.
+  projectName: "modern-portfolio-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/Deri-Kurniawan/portfolio-docs/tree/master",
+            "https://github.com/Deri-Kurniawan/modern-portfolio-docs/tree/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/Deri-Kurniawan/portfolio-docs/tree/master",
+            "https://github.com/Deri-Kurniawan/modern-portfolio-docs/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -78,12 +78,12 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://portfolio.deri-kurniawan.vercel.app",
+            href: "https://modern-portfolio.deri.my.id",
             label: "Live Demo",
             position: "right",
           },
           {
-            href: "https://github.com/deri-kurniawan/portfolio",
+            href: "https://github.com/Deri-Kurniawan/modern-portfolio",
             label: "GitHub",
             position: "right",
           },

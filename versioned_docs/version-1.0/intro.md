@@ -8,4 +8,4 @@ sidebar_position: 1
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Deri-Kurniawan/portfolio/blob/master/LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Deri-Kurniawan/modern-portfolio/blob/master/LICENSE)

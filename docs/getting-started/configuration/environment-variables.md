@@ -34,6 +34,6 @@ If you set `DATA_SOURCE` to `external`, you need to set all of this variables on
 | Variable       | Description  | Default     | Example                                                                                                    |
 | -------------- | ------------ | ----------- | ---------------------------------------------------------------------------------------------------------- |
 | `DATABASE_URL` | MongoDB URL  | `undefined` | `mongodb+srv://<username>:<password>@<cluster>.izmzeam.mongodb.net/<database>?retryWrites=true&w=majority` |
-| `BASE_URL`     | Deployed URL | `undefined` | `https://portfolio.deri-kurniawan.vercel.app`                                                              |
+| `BASE_URL`     | Deployed URL | `undefined` | `https://modern-portfolio.deri.my.id`                                                              |
 
 If you decide to using MongoDB, you should see MongoDB documentation for more information about [MongoDB URL](https://docs.mongodb.com/manual/reference/connection-string/).

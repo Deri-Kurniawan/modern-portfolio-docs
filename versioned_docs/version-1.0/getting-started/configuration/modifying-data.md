@@ -2,7 +2,7 @@
 
 ## Overview
 
-You can modify your data by editing `db/data.json` file. You can see the example of `db/data.json` file on [db/data.json](https://github.com/deri-kurniawan/portfolio/blob/master/db/data.json) file.
+You can modify your data by editing `db/data.json` file. You can see the example of `db/data.json` file on [db/data.json](https://github.com/Deri-Kurniawan/modern-portfolio/blob/master/db/data.json) file.
 
 ## Object Structure
 
@@ -464,7 +464,7 @@ You can modify your personal info by editing object value on `db/data.json` file
     {
       "label": "Credits",
       "icon": "https://img.icons8.com/color/344/document--v2.png",
-      "url": "https://github.com/Deri-Kurniawan/portfolio/blob/master/CREDITS.md"
+      "url": "https://github.com/Deri-Kurniawan/modern-portfolio/blob/master/CREDITS.md"
     }
   ]
 }

@@ -4,23 +4,23 @@ After cloning the repository and try to developing or modifying the app, you sho
 
 # Installation
 
-Get started by clone portfolio repository.
+Get started by clone modern portfolio repository.
 
 ```
-git clone https://github.com/deri-kurniawan/portfolio.git
+git clone https://github.com/Deri-Kurniawan/modern-portfolio.git
 ```
 
 Install dependencies using npm.
 
 ```
-cd portfolio
+cd modern-portfolio
 npm install
 ```
 
 or using yarn.
 
 ```
-cd portfolio
+cd modern-portfolio
 yarn
 ```
 

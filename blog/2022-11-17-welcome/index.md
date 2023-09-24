@@ -15,4 +15,4 @@ Bye the way this is portfolio documentation is created using Docusaurus. You can
 
 ![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
 
-I'm so glad you're here. I hope you find some inspiration and ideas here. Feel free to leave a comment if you have any questions or ideas on [github issues](https://github.com/Deri-Kurniawan/portfolio/issues).
+I'm so glad you're here. I hope you find some inspiration and ideas here. Feel free to leave a comment if you have any questions or ideas on [github issues](https://github.com/Deri-Kurniawan/modern-portfolio/issues).
